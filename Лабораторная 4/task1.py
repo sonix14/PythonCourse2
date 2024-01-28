@@ -99,6 +99,9 @@ class Manul(Feline):
     def roar(self) -> None:
         super().roar()
 
+    def play(self) -> None:
+        super().play()
+
 
 class Lynx(Feline):
     def __init__(self, age: int, name: str):
@@ -137,6 +140,9 @@ class Lynx(Feline):
         >>> cat.roar()
         """
         ...
+
+    def play(self) -> None:
+        super().play()
 
 
 if __name__ == "__main__":
